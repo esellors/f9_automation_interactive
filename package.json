@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/selenium-webdriver": "^4.0.15",
+    "chromedriver": "^94.0.0",
+    "jest": "^27.2.4",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "selenium-webdriver": "^4.0.0-rc-2"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
@@ -12,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   }
 }
